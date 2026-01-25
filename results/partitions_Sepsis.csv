@@ -1,0 +1,783 @@
+approach;total_size;partition;partition_size
+Feature;526;event:concept:name@Admission NC;800
+Feature;526;event:concept:name@CRP;1007
+Feature;526;event:concept:name@ER Registration;1050
+Feature;526;event:concept:name@ER Sepsis Triage;1049
+Feature;526;event:concept:name@ER Triage;1050
+Feature;526;event:concept:name@IV Antibiotics;823
+Feature;526;event:concept:name@IV Liquid;753
+Feature;526;event:concept:name@LacticAcid;860
+Feature;526;event:concept:name@Leucocytes;1012
+Feature;526;event:concept:name@Release A;671
+Feature;526;event:Age@85.0;149
+Feature;526;event:Diagnose@A;2
+Feature;526;event:Leucocytes@10.0;201
+Feature;526;event:Leucocytes@11.0;193
+Feature;526;event:Leucocytes@13.0;164
+Feature;526;event:Leucocytes@8.0;190
+Feature;526;event:Leucocytes@9.0;190
+Feature;526;event:CRP@109.0;14
+Feature;526;event:CRP@15.0;18
+Feature;526;event:CRP@21.0;26
+Feature;526;event:CRP@47.0;13
+Feature;526;event:CRP@6.0;21
+Feature;526;event:CRP@9.0;24
+Feature;526;event:LacticAcid@2.0;239
+Feature;526;event:org:group@A;985
+Feature;526;event:org:group@B;1013
+Feature;526;event:org:group@C;1050
+Feature;526;event:org:group@D;46
+Feature;526;event:org:group@E;782
+Feature;526;event:DiagnosticArtAstrup@True;297
+Feature;526;event:DiagnosticBlood@True;823
+Feature;526;event:DiagnosticECG@True;765
+Feature;526;event:DiagnosticIC@True;848
+Feature;526;event:DiagnosticLacticAcid@True;804
+Feature;526;event:DiagnosticLiquor@False;1045
+Feature;526;event:DiagnosticOther@False;1040
+Feature;526;event:DiagnosticSputum@False;1021
+Feature;526;event:DiagnosticUrinaryCulture@True;476
+Feature;526;event:DiagnosticUrinarySediment@True;519
+Feature;526;event:DiagnosticXthorax@True;785
+Feature;526;event:DisfuncOrg@True;69
+Feature;526;event:Hypotensie@True;54
+Feature;526;event:Hypoxie@False;1030
+Feature;526;event:InfectionSuspected@True;848
+Feature;526;event:Infusion@True;796
+Feature;526;event:Oligurie@False;1025
+Feature;526;event:SIRSCritHeartRate@True;811
+Feature;526;event:SIRSCritLeucos@False;1001
+Feature;526;event:SIRSCritTachypnea@True;601
+Feature;526;event:SIRSCritTemperature@True;801
+Feature;526;event:SIRSCriteria2OrMore@True;853
+Feature;526;event:Age@45.0;28
+Feature;526;event:Diagnose@B;82
+Feature;526;event:CRP@226.0;7
+Feature;526;event:CRP@240.0;3
+Feature;526;event:CRP@75.0;23
+Feature;526;event:LacticAcid@0.0;143
+Feature;526;event:org:group@F;200
+Feature;526;event:DiagnosticArtAstrup@False;753
+Feature;526;event:DiagnosticSputum@True;29
+Feature;526;event:DisfuncOrg@False;981
+Feature;526;event:Hypotensie@False;996
+Feature;526;event:Age@55.0;60
+Feature;526;event:Diagnose@C;147
+Feature;526;event:Leucocytes@15.0;108
+Feature;526;event:Leucocytes@18.0;85
+Feature;526;event:Leucocytes@7.0;171
+Feature;526;event:CRP@186.0;9
+Feature;526;event:CRP@27.0;17
+Feature;526;event:CRP@81.0;21
+Feature;526;event:LacticAcid@UNDEFINED;193
+Feature;526;event:org:group@G;147
+Feature;526;event:org:group@H;50
+Feature;526;event:DiagnosticXthorax@False;265
+Feature;526;event:SIRSCritTachypnea@False;449
+Feature;526;event:concept:name@Return ER;294
+Feature;526;event:Age@70.0;110
+Feature;526;event:Diagnose@D;23
+Feature;526;event:CRP@171.0;16
+Feature;526;event:CRP@49.0;8
+Feature;526;event:LacticAcid@1.0;515
+Feature;526;event:org:group@?;294
+Feature;526;event:DiagnosticUrinaryCulture@False;574
+Feature;526;event:DiagnosticUrinarySediment@False;531
+Feature;526;event:Age@75.0;135
+Feature;526;event:Diagnose@UNDEFINED;253
+Feature;526;event:CRP@265.0;3
+Feature;526;event:Age@50.0;36
+Feature;526;event:Diagnose@E;67
+Feature;526;event:org:group@I;118
+Feature;526;event:Age@60.0;71
+Feature;526;event:Diagnose@F;8
+Feature;526;event:Leucocytes@24.0;31
+Feature;526;event:CRP@111.0;10
+Feature;526;event:CRP@77.0;23
+Feature;526;event:concept:name@Admission IC;110
+Feature;526;event:concept:name@Release B;56
+Feature;526;event:Age@80.0;129
+Feature;526;event:Diagnose@G;44
+Feature;526;event:Leucocytes@6.0;158
+Feature;526;event:CRP@135.0;14
+Feature;526;event:CRP@144.0;8
+Feature;526;event:CRP@78.0;19
+Feature;526;event:org:group@J;22
+Feature;526;event:org:group@K;18
+Feature;526;event:DiagnosticBlood@False;227
+Feature;526;event:DiagnosticECG@False;285
+Feature;526;event:DiagnosticIC@False;202
+Feature;526;event:DiagnosticLacticAcid@False;246
+Feature;526;event:InfectionSuspected@False;202
+Feature;526;event:Infusion@False;254
+Feature;526;event:SIRSCritTemperature@False;249
+Feature;526;event:SIRSCriteria2OrMore@False;197
+Feature;526;event:Diagnose@H;51
+Feature;526;event:CRP@14.0;24
+Feature;526;event:org:group@L;65
+Feature;526;event:org:group@M;82
+Feature;526;event:CRP@43.0;12
+Feature;526;event:CRP@66.0;17
+Feature;526;event:Leucocytes@14.0;132
+Feature;526;event:Leucocytes@17.0;72
+Feature;526;event:CRP@67.0;21
+Feature;526;event:CRP@82.0;14
+Feature;526;event:Diagnose@J;2
+Feature;526;event:CRP@103.0;9
+Feature;526;event:CRP@85.0;15
+Feature;526;event:org:group@N;43
+Feature;526;event:Age@90.0;155
+Feature;526;event:Leucocytes@UNDEFINED;39
+Feature;526;event:CRP@UNDEFINED;103
+Feature;526;event:SIRSCritHeartRate@False;239
+Feature;526;event:Diagnose@K;22
+Feature;526;event:CRP@151.0;8
+Feature;526;event:CRP@153.0;15
+Feature;526;event:org:group@O;179
+Feature;526;event:Age@30.0;18
+Feature;526;event:Age@20.0;11
+Feature;526;event:CRP@102.0;16
+Feature;526;event:CRP@242.0;4
+Feature;526;event:CRP@332.0;3
+Feature;526;event:org:group@P;58
+Feature;526;event:CRP@205.0;4
+Feature;526;event:LacticAcid@3.0;96
+Feature;526;event:org:group@Q;62
+Feature;526;event:Leucocytes@12.0;157
+Feature;526;event:Leucocytes@16.0;85
+Feature;526;event:Leucocytes@20.0;49
+Feature;526;event:CRP@292.0;4
+Feature;526;event:Leucocytes@26.0;22
+Feature;526;event:CRP@107.0;14
+Feature;526;event:CRP@121.0;7
+Feature;526;event:CRP@228.0;5
+Feature;526;event:CRP@25.0;21
+Feature;526;event:LacticAcid@6.0;8
+Feature;526;event:Diagnose@M;10
+Feature;526;event:CRP@136.0;18
+Feature;526;event:CRP@68.0;18
+Feature;526;event:CRP@28.0;18
+Feature;526;event:CRP@71.0;19
+Feature;526;event:Leucocytes@5.0;113
+Feature;526;event:org:group@R;54
+Feature;526;event:CRP@23.0;20
+Feature;526;event:CRP@58.0;17
+Feature;526;event:Leucocytes@2.0;35
+Feature;526;event:CRP@8.0;27
+Feature;526;event:concept:name@Release C;25
+Feature;526;event:CRP@166.0;6
+Feature;526;event:CRP@350.0;2
+Feature;526;event:CRP@133.0;18
+Feature;526;event:CRP@110.0;14
+Feature;526;event:Diagnose@N;11
+Feature;526;event:CRP@33.0;14
+Feature;526;event:CRP@87.0;13
+Feature;526;event:Leucocytes@36.0;4
+Feature;526;event:CRP@216.0;8
+Feature;526;event:DiagnosticOther@True;10
+Feature;526;event:SIRSCritLeucos@True;49
+Feature;526;event:Age@65.0;78
+Feature;526;event:Leucocytes@4.0;72
+Feature;526;event:Leucocytes@3.0;53
+Feature;526;event:CRP@127.0;9
+Feature;526;event:CRP@17.0;34
+Feature;526;event:CRP@59.0;18
+Feature;526;event:CRP@84.0;19
+Feature;526;event:Diagnose@P;5
+Feature;526;event:CRP@100.0;12
+Feature;526;event:CRP@112.0;13
+Feature;526;event:CRP@74.0;14
+Feature;526;event:org:group@S;31
+Feature;526;event:Leucocytes@19.0;58
+Feature;526;event:Leucocytes@21.0;39
+Feature;526;event:Leucocytes@22.0;31
+Feature;526;event:CRP@156.0;10
+Feature;526;event:CRP@207.0;4
+Feature;526;event:CRP@213.0;17
+Feature;526;event:CRP@64.0;10
+Feature;526;event:Hypoxie@True;20
+Feature;526;event:Oligurie@True;25
+Feature;526;event:LacticAcid@4.0;36
+Feature;526;event:concept:name@Release D;24
+Feature;526;event:Diagnose@Q;13
+Feature;526;event:CRP@223.0;4
+Feature;526;event:CRP@282.0;4
+Feature;526;event:Diagnose@R;22
+Feature;526;event:CRP@214.0;7
+Feature;526;event:CRP@230.0;3
+Feature;526;event:CRP@93.0;15
+Feature;526;event:CRP@140.0;10
+Feature;526;event:CRP@149.0;10
+Feature;526;event:CRP@169.0;13
+Feature;526;event:CRP@10.0;17
+Feature;526;event:Diagnose@S;13
+Feature;526;event:CRP@5.0;11
+Feature;526;event:CRP@69.0;18
+Feature;526;event:CRP@219.0;8
+Feature;526;event:CRP@48.0;14
+Feature;526;event:Age@35.0;28
+Feature;526;event:CRP@39.0;17
+Feature;526;event:CRP@184.0;5
+Feature;526;event:CRP@76.0;12
+Feature;526;event:CRP@80.0;13
+Feature;526;event:CRP@237.0;5
+Feature;526;event:CRP@12.0;20
+Feature;526;event:CRP@54.0;13
+Feature;526;event:Diagnose@T;4
+Feature;526;event:CRP@157.0;7
+Feature;526;event:CRP@177.0;12
+Feature;526;event:CRP@294.0;2
+Feature;526;event:org:group@T;30
+Feature;526;event:Diagnose@U;9
+Feature;526;event:CRP@119.0;18
+Feature;526;event:CRP@259.0;3
+Feature;526;event:Leucocytes@23.0;32
+Feature;526;event:Leucocytes@0.0;17
+Feature;526;event:Leucocytes@1.0;33
+Feature;526;event:CRP@130.0;12
+Feature;526;event:CRP@88.0;14
+Feature;526;event:CRP@94.0;17
+Feature;526;event:CRP@155.0;10
+Feature;526;event:CRP@243.0;3
+Feature;526;event:CRP@319.0;3
+Feature;526;event:CRP@343.0;3
+Feature;526;event:CRP@208.0;4
+Feature;526;event:CRP@65.0;11
+Feature;526;event:CRP@139.0;10
+Feature;526;event:CRP@263.0;3
+Feature;526;event:Diagnose@W;8
+Feature;526;event:CRP@201.0;4
+Feature;526;event:CRP@38.0;13
+Feature;526;event:CRP@51.0;14
+Feature;526;event:CRP@91.0;16
+Feature;526;event:Diagnose@Y;10
+Feature;526;event:CRP@255.0;2
+Feature;526;event:Diagnose@Z;9
+Feature;526;event:CRP@70.0;18
+Feature;526;event:CRP@97.0;15
+Feature;526;event:CRP@335.0;3
+Feature;526;event:LacticAcid@8.0;8
+Feature;526;event:CRP@178.0;4
+Feature;526;event:CRP@63.0;8
+Feature;526;event:Diagnose@AA;10
+Feature;526;event:CRP@125.0;8
+Feature;526;event:CRP@182.0;9
+Feature;526;event:CRP@60.0;14
+Feature;526;event:CRP@79.0;13
+Feature;526;event:Diagnose@BA;3
+Feature;526;event:CRP@120.0;15
+Feature;526;event:CRP@22.0;19
+Feature;526;event:CRP@52.0;15
+Feature;526;event:CRP@20.0;26
+Feature;526;event:CRP@34.0;12
+Feature;526;event:CRP@55.0;18
+Feature;526;event:CRP@7.0;21
+Feature;526;event:LacticAcid@5.0;20
+Feature;526;event:CRP@30.0;14
+Feature;526;event:Leucocytes@38.0;3
+Feature;526;event:CRP@128.0;14
+Feature;526;event:CRP@145.0;13
+Feature;526;event:CRP@11.0;27
+Feature;526;event:Leucocytes@27.0;15
+Feature;526;event:Leucocytes@28.0;5
+Feature;526;event:Leucocytes@33.0;4
+Feature;526;event:CRP@32.0;21
+Feature;526;event:Diagnose@CA;9
+Feature;526;event:CRP@262.0;2
+Feature;526;event:CRP@150.0;10
+Feature;526;event:CRP@108.0;8
+Feature;526;event:CRP@16.0;26
+Feature;526;event:LacticAcid@9.0;4
+Feature;526;event:CRP@218.0;2
+Feature;526;event:CRP@283.0;2
+Feature;526;event:CRP@198.0;4
+Feature;526;event:CRP@247.0;3
+Feature;526;event:CRP@42.0;16
+Feature;526;event:LacticAcid@7.0;9
+Feature;526;event:CRP@31.0;22
+Feature;526;event:org:group@U;18
+Feature;526;event:Leucocytes@25.0;17
+Feature;526;event:CRP@116.0;14
+Feature;526;event:CRP@117.0;15
+Feature;526;event:CRP@19.0;27
+Feature;526;event:CRP@185.0;14
+Feature;526;event:CRP@26.0;22
+Feature;526;event:CRP@415.0;3
+Feature;526;event:Diagnose@EA;2
+Feature;526;event:org:group@V;24
+Feature;526;event:CRP@44.0;12
+Feature;526;event:CRP@124.0;15
+Feature;526;event:CRP@210.0;8
+Feature;526;event:CRP@175.0;4
+Feature;526;event:CRP@233.0;3
+Feature;526;event:CRP@239.0;11
+Feature;526;event:CRP@98.0;14
+Feature;526;event:org:group@W;54
+Feature;526;event:CRP@73.0;22
+Feature;526;event:CRP@146.0;12
+Feature;526;event:CRP@126.0;16
+Feature;526;event:CRP@35.0;9
+Feature;526;event:CRP@13.0;26
+Feature;526;event:CRP@152.0;14
+Feature;526;event:CRP@174.0;8
+Feature;526;event:CRP@176.0;8
+Feature;526;event:CRP@188.0;10
+Feature;526;event:CRP@196.0;5
+Feature;526;event:CRP@315.0;3
+Feature;526;event:CRP@318.0;4
+Feature;526;event:CRP@320.0;5
+Feature;526;event:CRP@40.0;17
+Feature;526;event:CRP@50.0;20
+Feature;526;event:CRP@61.0;7
+Feature;526;event:CRP@83.0;14
+Feature;526;event:CRP@197.0;3
+Feature;526;event:CRP@211.0;2
+Feature;526;event:CRP@256.0;3
+Feature;526;event:CRP@312.0;3
+Feature;526;event:Leucocytes@29.0;11
+Feature;526;event:Leucocytes@30.0;10
+Feature;526;event:Leucocytes@32.0;4
+Feature;526;event:Leucocytes@35.0;6
+Feature;526;event:CRP@187.0;14
+Feature;526;event:CRP@289.0;3
+Feature;526;event:CRP@36.0;21
+Feature;526;event:CRP@46.0;7
+Feature;526;event:Diagnose@FA;2
+Feature;526;event:CRP@62.0;18
+Feature;526;event:Diagnose@GA;4
+Feature;526;event:CRP@165.0;8
+Feature;526;event:CRP@142.0;8
+Feature;526;event:CRP@189.0;14
+Feature;526;event:Diagnose@HA;4
+Feature;526;event:CRP@57.0;10
+Feature;526;event:CRP@147.0;11
+Feature;526;event:CRP@89.0;16
+Feature;526;event:CRP@148.0;11
+Feature;526;event:CRP@299.0;3
+Feature;526;event:CRP@138.0;5
+Feature;526;event:CRP@18.0;14
+Feature;526;event:CRP@113.0;15
+Feature;526;event:CRP@190.0;5
+Feature;526;event:CRP@280.0;5
+Feature;526;event:CRP@118.0;13
+Feature;526;event:CRP@245.0;5
+Feature;526;event:CRP@195.0;4
+Feature;526;event:CRP@37.0;17
+Feature;526;event:Diagnose@KA;8
+Feature;526;event:CRP@143.0;13
+Feature;526;event:CRP@163.0;10
+Feature;526;event:CRP@170.0;9
+Feature;526;event:CRP@225.0;5
+Feature;526;event:CRP@248.0;6
+Feature;526;event:Age@40.0;23
+Feature;526;event:Leucocytes@44.0;4
+Feature;526;event:CRP@131.0;15
+Feature;526;event:CRP@137.0;11
+Feature;526;event:CRP@154.0;10
+Feature;526;event:CRP@180.0;9
+Feature;526;event:CRP@209.0;9
+Feature;526;event:CRP@222.0;3
+Feature;526;event:CRP@249.0;3
+Feature;526;event:CRP@287.0;2
+Feature;526;event:CRP@56.0;11
+Feature;526;event:Diagnose@LA;7
+Feature;526;event:CRP@114.0;9
+Feature;526;event:CRP@159.0;11
+Feature;526;event:Diagnose@MA;3
+Feature;526;event:CRP@106.0;14
+Feature;526;event:CRP@24.0;17
+Feature;526;event:CRP@95.0;14
+Feature;526;event:CRP@370.0;3
+Feature;526;event:Leucocytes@46.0;2
+Feature;526;event:CRP@134.0;11
+Feature;526;event:CRP@161.0;5
+Feature;526;event:CRP@29.0;16
+Feature;526;event:CRP@99.0;7
+Feature;526;event:CRP@281.0;5
+Feature;526;event:CRP@105.0;9
+Feature;526;event:CRP@261.0;4
+Feature;526;event:CRP@273.0;3
+Feature;526;event:concept:name@Release E;6
+Feature;526;event:CRP@123.0;11
+Feature;526;event:CRP@194.0;6
+Feature;526;event:CRP@234.0;2
+Feature;526;event:CRP@271.0;5
+Feature;526;event:CRP@325.0;2
+Feature;526;event:Age@25.0;19
+Feature;526;event:Leucocytes@34.0;5
+Feature;526;event:CRP@191.0;6
+Feature;526;event:CRP@231.0;5
+Feature;526;event:CRP@275.0;6
+Feature;526;event:CRP@279.0;3
+Feature;526;event:CRP@314.0;2
+Feature;526;event:CRP@384.0;2
+Feature;526;event:CRP@115.0;9
+Feature;526;event:CRP@122.0;14
+Feature;526;event:Diagnose@UA;2
+Feature;526;event:Diagnose@VA;4
+Feature;526;event:Diagnose@WA;2
+Feature;526;event:CRP@179.0;10
+Feature;526;event:CRP@90.0;11
+Feature;526;event:Leucocytes@40.0;3
+Feature;526;event:LacticAcid@14.0;2
+Feature;526;event:Diagnose@XA;2
+Feature;526;event:CRP@181.0;7
+Feature;526;event:CRP@162.0;6
+Feature;526;event:Diagnose@YA;2
+Feature;526;event:CRP@53.0;16
+Feature;526;event:CRP@86.0;11
+Feature;526;event:Diagnose@ZA;4
+Feature;526;event:CRP@72.0;16
+Feature;526;event:CRP@331.0;2
+Feature;526;event:CRP@101.0;5
+Feature;526;event:Leucocytes@41.0;3
+Feature;526;event:Leucocytes@42.0;2
+Feature;526;event:CRP@141.0;13
+Feature;526;event:Diagnose@AB;2
+Feature;526;event:CRP@164.0;7
+Feature;526;event:CRP@158.0;11
+Feature;526;event:CRP@206.0;7
+Feature;526;event:Diagnose@BB;8
+Feature;526;event:CRP@129.0;14
+Feature;526;event:CRP@251.0;2
+Feature;526;event:CRP@215.0;11
+Feature;526;event:CRP@41.0;18
+Feature;526;event:CRP@254.0;5
+Feature;526;event:CRP@200.0;4
+Feature;526;event:CRP@306.0;3
+Feature;526;event:CRP@301.0;2
+Feature;526;event:DiagnosticLiquor@True;5
+Feature;526;event:CRP@173.0;3
+Feature;526;event:CRP@217.0;7
+Feature;526;event:CRP@132.0;10
+Feature;526;event:Diagnose@EB;2
+Feature;526;event:CRP@172.0;6
+Feature;526;event:CRP@317.0;2
+Feature;526;event:CRP@321.0;2
+Feature;526;event:CRP@183.0;8
+Feature;526;event:CRP@322.0;2
+Feature;526;event:CRP@104.0;11
+Feature;526;event:CRP@168.0;9
+Feature;526;event:Diagnose@GB;7
+Feature;526;event:CRP@160.0;5
+Feature;526;event:CRP@232.0;4
+Feature;526;event:CRP@278.0;2
+Feature;526;event:CRP@202.0;6
+Feature;526;event:CRP@257.0;2
+Feature;526;event:CRP@276.0;3
+Feature;526;event:Diagnose@LB;2
+Feature;526;event:CRP@204.0;5
+Feature;526;event:CRP@212.0;5
+Feature;526;event:CRP@220.0;3
+Feature;526;event:CRP@235.0;5
+Feature;526;event:CRP@291.0;2
+Feature;526;event:CRP@167.0;4
+Feature;526;event:CRP@258.0;3
+Feature;526;event:CRP@96.0;7
+Feature;526;event:CRP@250.0;4
+Feature;526;event:Diagnose@OB;4
+Feature;526;event:Leucocytes@122.0;2
+Feature;526;event:CRP@303.0;2
+Feature;526;event:CRP@92.0;12
+Feature;526;event:CRP@241.0;2
+Feature;526;event:Diagnose@RB;4
+Feature;526;event:Diagnose@SB;2
+Feature;526;event:CRP@268.0;4
+Feature;526;event:Diagnose@TB;4
+Feature;526;event:Diagnose@VB;5
+Feature;526;event:CRP@252.0;4
+Feature;526;event:CRP@307.0;3
+Feature;526;event:Diagnose@ZB;3
+Feature;526;event:Diagnose@AC;3
+Feature;526;event:CRP@224.0;2
+Feature;526;event:CRP@236.0;4
+Feature;526;event:CRP@298.0;3
+Feature;526;event:CRP@300.0;3
+Feature;526;event:CRP@45.0;12
+Feature;526;event:Diagnose@IC;5
+Feature;526;event:Diagnose@JC;5
+Feature;526;event:Diagnose@KC;2
+Feature;526;event:Diagnose@LC;3
+Feature;526;event:CRP@193.0;3
+Feature;526;event:Diagnose@PC;2
+Feature;526;event:Diagnose@RC;5
+Feature;526;event:Diagnose@UC;3
+Feature;526;event:CRP@304.0;3
+Feature;526;event:Diagnose@WC;2
+Feature;526;event:CRP@274.0;5
+Feature;526;event:CRP@349.0;2
+Feature;526;event:CRP@305.0;3
+Feature;526;event:Diagnose@ZC;2
+Feature;526;event:CRP@246.0;3
+Feature;526;event:CRP@266.0;4
+Feature;526;event:CRP@221.0;3
+Feature;526;event:CRP@308.0;2
+Feature;526;event:CRP@260.0;4
+Feature;526;event:Diagnose@ED;2
+Feature;526;event:CRP@290.0;3
+Feature;526;event:CRP@342.0;2
+Feature;526;event:CRP@363.0;2
+Feature;526;event:Diagnose@HD;2
+Feature;526;event:CRP@296.0;2
+Feature;526;event:Diagnose@MD;3
+Feature;526;event:CRP@352.0;2
+Feature;526;event:CRP@227.0;2
+Feature;526;event:CRP@267.0;3
+Feature;526;event:CRP@277.0;2
+Feature;526;event:CRP@323.0;2
+Sequence;256;('LacticAcid', 'ER Triage', 'ER Sepsis Triage');14
+Sequence;256;('Admission NC', 'CRP', 'Leucocytes');271
+Sequence;256;('CRP', 'CRP', 'Leucocytes');166
+Sequence;256;('CRP', 'Leucocytes', 'CRP');255
+Sequence;256;('Leucocytes', 'CRP', 'LacticAcid');274
+Sequence;256;('IV Antibiotics', 'Admission NC', 'CRP');150
+Sequence;256;('Leucocytes', 'CRP', 'Leucocytes');252
+Sequence;256;('CRP', 'Leucocytes', 'Release A');196
+Sequence;256;('Leucocytes', 'Leucocytes', 'CRP');194
+Sequence;256;('ER Sepsis Triage', 'IV Liquid', 'IV Antibiotics');177
+Sequence;256;('Leucocytes', 'CRP', 'CRP');181
+Sequence;256;('IV Liquid', 'IV Antibiotics', 'Admission NC');308
+Sequence;256;('ER Registration', 'Leucocytes', 'CRP');14
+Sequence;256;('CRP', 'LacticAcid', 'ER Triage');9
+Sequence;256;('ER Triage', 'ER Sepsis Triage', 'IV Liquid');207
+Sequence;256;('CRP', 'Leucocytes', 'Leucocytes');177
+Sequence;256;('Leucocytes', 'ER Sepsis Triage', 'IV Liquid');25
+Sequence;256;('ER Triage', 'CRP', 'LacticAcid');20
+Sequence;256;('Admission NC', 'CRP', 'CRP');29
+Sequence;256;('CRP', 'CRP', 'Release A');35
+Sequence;256;('ER Registration', 'ER Triage', 'CRP');45
+Sequence;256;('LacticAcid', 'Leucocytes', 'ER Sepsis Triage');18
+Sequence;256;('CRP', 'LacticAcid', 'Leucocytes');211
+Sequence;256;('Leucocytes', 'CRP', 'IV Liquid');65
+Sequence;256;('ER Registration', 'ER Triage', 'ER Sepsis Triage');846
+Sequence;256;('CRP', 'IV Liquid', 'IV Antibiotics');105
+Sequence;256;('ER Triage', 'ER Sepsis Triage', 'Leucocytes');268
+Sequence;256;('Admission NC', 'Leucocytes', 'CRP');318
+Sequence;256;('Admission NC', 'Admission NC', 'Leucocytes');66
+Sequence;256;('ER Sepsis Triage', 'Leucocytes', 'CRP');193
+Sequence;256;('IV Antibiotics', 'Admission NC', 'Admission NC');97
+Sequence;256;('Leucocytes', 'CRP', 'Release A');253
+Sequence;256;('IV Antibiotics', 'Admission NC', 'Leucocytes');161
+Sequence;256;('CRP', 'Release A', 'Return ER');137
+Sequence;256;('Leucocytes', 'IV Liquid', 'IV Antibiotics');94
+Sequence;256;('ER Sepsis Triage', 'CRP', 'LacticAcid');84
+Sequence;256;('LacticAcid', 'Leucocytes', 'IV Liquid');59
+Sequence;256;('ER Triage', 'ER Sepsis Triage', 'CRP');190
+Sequence;256;('IV Liquid', 'CRP', 'Leucocytes');31
+Sequence;256;('Leucocytes', 'LacticAcid', 'IV Antibiotics');39
+Sequence;256;('CRP', 'Leucocytes', 'LacticAcid');181
+Sequence;256;('ER Sepsis Triage', 'IV Liquid', 'CRP');35
+Sequence;256;('IV Antibiotics', 'IV Liquid', 'Admission NC');45
+Sequence;256;('CRP', 'LacticAcid', 'IV Antibiotics');47
+Sequence;256;('IV Liquid', 'Admission NC', 'Release A');3
+Sequence;256;('LacticAcid', 'IV Antibiotics', 'IV Liquid');19
+Sequence;256;('IV Liquid', 'IV Antibiotics', 'LacticAcid');21
+Sequence;256;('LacticAcid', 'CRP', 'Leucocytes');159
+Sequence;256;('CRP', 'Leucocytes', 'Admission NC');96
+Sequence;256;('Leucocytes', 'Admission NC', 'Leucocytes');60
+Sequence;256;('IV Antibiotics', 'LacticAcid', 'CRP');6
+Sequence;256;('CRP', 'Admission NC', 'Release B');5
+Sequence;256;('LacticAcid', 'Leucocytes', 'Admission IC');9
+Sequence;256;('Leucocytes', 'CRP', 'Admission NC');136
+Sequence;256;('CRP', 'LacticAcid', 'Admission NC');59
+Sequence;256;('ER Triage', 'ER Sepsis Triage', 'IV Antibiotics');47
+Sequence;256;('ER Sepsis Triage', 'IV Antibiotics', 'Leucocytes');8
+Sequence;256;('IV Antibiotics', 'Leucocytes', 'CRP');28
+Sequence;256;('LacticAcid', 'Admission NC', 'Leucocytes');27
+Sequence;256;('ER Sepsis Triage', 'CRP', 'Leucocytes');107
+Sequence;256;('Leucocytes', 'LacticAcid', 'IV Liquid');36
+Sequence;256;('LacticAcid', 'IV Liquid', 'IV Antibiotics');118
+Sequence;256;('Admission NC', 'CRP', 'Release A');31
+Sequence;256;('CRP', 'Admission NC', 'IV Liquid');3
+Sequence;256;('ER Triage', 'ER Sepsis Triage', 'LacticAcid');147
+Sequence;256;('ER Sepsis Triage', 'LacticAcid', 'CRP');63
+Sequence;256;('Admission NC', 'IV Liquid', 'CRP');8
+Sequence;256;('Leucocytes', 'IV Antibiotics', 'Admission NC');55
+Sequence;256;('CRP', 'Leucocytes', 'IV Antibiotics');38
+Sequence;256;('Leucocytes', 'Release A', 'Return ER');95
+Sequence;256;('Leucocytes', 'Leucocytes', 'Leucocytes');45
+Sequence;256;('CRP', 'LacticAcid', 'IV Liquid');82
+Sequence;256;('Admission NC', 'Leucocytes', 'Leucocytes');33
+Sequence;256;('IV Antibiotics', 'CRP', 'Leucocytes');28
+Sequence;256;('LacticAcid', 'Leucocytes', 'Admission NC');30
+Sequence;256;('Admission NC', 'IV Liquid', 'IV Antibiotics');4
+Sequence;256;('IV Liquid', 'IV Antibiotics', 'CRP');36
+Sequence;256;('LacticAcid', 'IV Antibiotics', 'Admission NC');57
+Sequence;256;('Admission NC', 'Release A', 'Return ER');43
+Sequence;256;('IV Antibiotics', 'Admission NC', 'Release A');28
+Sequence;256;('Admission IC', 'LacticAcid', 'Leucocytes');21
+Sequence;256;('IV Antibiotics', 'Admission NC', 'Admission IC');9
+Sequence;256;('CRP', 'Admission NC', 'Leucocytes');65
+Sequence;256;('Admission NC', 'Admission IC', 'LacticAcid');9
+Sequence;256;('LacticAcid', 'Leucocytes', 'CRP');213
+Sequence;256;('IV Antibiotics', 'CRP', 'LacticAcid');18
+Sequence;256;('Leucocytes', 'CRP', 'Release B');17
+Sequence;256;('ER Sepsis Triage', 'Leucocytes', 'Admission NC');6
+Sequence;256;('LacticAcid', 'CRP', 'IV Antibiotics');29
+Sequence;256;('IV Antibiotics', 'Admission IC', 'LacticAcid');19
+Sequence;256;('CRP', 'IV Antibiotics', 'Admission IC');10
+Sequence;256;('Admission IC', 'LacticAcid', 'CRP');16
+Sequence;256;('Leucocytes', 'LacticAcid', 'LacticAcid');25
+Sequence;256;('LacticAcid', 'LacticAcid', 'CRP');27
+Sequence;256;('ER Sepsis Triage', 'IV Liquid', 'Leucocytes');41
+Sequence;256;('IV Liquid', 'Leucocytes', 'LacticAcid');13
+Sequence;256;('Leucocytes', 'LacticAcid', 'CRP');167
+Sequence;256;('Leucocytes', 'CRP', 'IV Antibiotics');52
+Sequence;256;('IV Liquid', 'LacticAcid', 'Leucocytes');21
+Sequence;256;('ER Sepsis Triage', 'IV Liquid', 'LacticAcid');32
+Sequence;256;('CRP', 'IV Antibiotics', 'Admission NC');47
+Sequence;256;('LacticAcid', 'Admission NC', 'CRP');31
+Sequence;256;('CRP', 'LacticAcid', 'ER Sepsis Triage');28
+Sequence;256;('ER Registration', 'ER Triage', 'Leucocytes');45
+Sequence;256;('ER Triage', 'Leucocytes', 'CRP');40
+Sequence;256;('ER Sepsis Triage', 'IV Antibiotics', 'CRP');10
+Sequence;256;('LacticAcid', 'CRP', 'Admission IC');4
+Sequence;256;('ER Sepsis Triage', 'Leucocytes', 'LacticAcid');67
+Sequence;256;('Admission NC', 'Admission NC', 'Release A');20
+Sequence;256;('LacticAcid', 'CRP', 'IV Liquid');46
+Sequence;256;('Leucocytes', 'Admission NC', 'CRP');47
+Sequence;256;('IV Liquid', 'Leucocytes', 'CRP');41
+Sequence;256;('IV Antibiotics', 'Admission NC', 'IV Liquid');11
+Sequence;256;('Leucocytes', 'CRP', 'Release C');11
+Sequence;256;('Admission NC', 'IV Liquid', 'Leucocytes');6
+Sequence;256;('Leucocytes', 'LacticAcid', 'Admission NC');35
+Sequence;256;('LacticAcid', 'ER Sepsis Triage', 'Admission NC');4
+Sequence;256;('IV Liquid', 'ER Registration', 'ER Triage');15
+Sequence;256;('ER Triage', 'Leucocytes', 'LacticAcid');12
+Sequence;256;('Admission NC', 'CRP', 'LacticAcid');9
+Sequence;256;('Admission NC', 'Admission NC', 'CRP');67
+Sequence;256;('CRP', 'Admission NC', 'Admission NC');28
+Sequence;256;('LacticAcid', 'CRP', 'Admission NC');38
+Sequence;256;('ER Sepsis Triage', 'IV Antibiotics', 'ER Triage');4
+Sequence;256;('ER Sepsis Triage', 'LacticAcid', 'Leucocytes');83
+Sequence;256;('LacticAcid', 'Admission NC', 'Admission NC');18
+Sequence;256;('ER Sepsis Triage', 'IV Antibiotics', 'IV Liquid');15
+Sequence;256;('CRP', 'Leucocytes', 'Release C');8
+Sequence;256;('IV Antibiotics', 'IV Liquid', 'Leucocytes');3
+Sequence;256;('CRP', 'Leucocytes', 'Release D');11
+Sequence;256;('IV Liquid', 'CRP', 'LacticAcid');15
+Sequence;256;('LacticAcid', 'Leucocytes', 'IV Antibiotics');34
+Sequence;256;('IV Antibiotics', 'Admission NC', 'LacticAcid');18
+Sequence;256;('Leucocytes', 'Admission NC', 'Release A');25
+Sequence;256;('CRP', 'ER Triage', 'ER Sepsis Triage');15
+Sequence;256;('ER Registration', 'Leucocytes', 'LacticAcid');7
+Sequence;256;('LacticAcid', 'CRP', 'ER Triage');7
+Sequence;256;('Admission NC', 'Leucocytes', 'Admission NC');13
+Sequence;256;('Leucocytes', 'IV Antibiotics', 'IV Liquid');10
+Sequence;256;('ER Triage', 'LacticAcid', 'CRP');13
+Sequence;256;('ER Registration', 'ER Triage', 'LacticAcid');26
+Sequence;256;('CRP', 'Leucocytes', 'ER Sepsis Triage');18
+Sequence;256;('CRP', 'Admission NC', 'Release A');23
+Sequence;256;('IV Liquid', 'IV Antibiotics', 'Leucocytes');42
+Sequence;256;('Admission NC', 'CRP', 'Admission NC');3
+Sequence;256;('CRP', 'Admission NC', 'CRP');53
+Sequence;256;('IV Liquid', 'Admission NC', 'Admission NC');11
+Sequence;256;('Leucocytes', 'Release D', 'Return ER');4
+Sequence;256;('ER Registration', 'ER Sepsis Triage', 'IV Liquid');3
+Sequence;256;('Admission NC', 'Leucocytes', 'Release A');10
+Sequence;256;('ER Triage', 'ER Registration', 'ER Sepsis Triage');3
+Sequence;256;('CRP', 'IV Antibiotics', 'IV Liquid');17
+Sequence;256;('LacticAcid', 'Admission IC', 'CRP');3
+Sequence;256;('Admission IC', 'CRP', 'LacticAcid');18
+Sequence;256;('Leucocytes', 'LacticAcid', 'Admission IC');6
+Sequence;256;('LacticAcid', 'Leucocytes', 'Leucocytes');31
+Sequence;256;('CRP', 'Leucocytes', 'IV Liquid');43
+Sequence;256;('IV Liquid', 'ER Triage', 'ER Sepsis Triage');19
+Sequence;256;('Leucocytes', 'Admission IC', 'CRP');5
+Sequence;256;('LacticAcid', 'Admission NC', 'Release A');14
+Sequence;256;('ER Registration', 'IV Liquid', 'ER Triage');20
+Sequence;256;('CRP', 'LacticAcid', 'LacticAcid');26
+Sequence;256;('LacticAcid', 'LacticAcid', 'Leucocytes');23
+Sequence;256;('LacticAcid', 'Leucocytes', 'LacticAcid');32
+Sequence;256;('IV Liquid', 'Admission NC', 'CRP');13
+Sequence;256;('IV Antibiotics', 'LacticAcid', 'Leucocytes');18
+Sequence;256;('CRP', 'ER Sepsis Triage', 'IV Liquid');23
+Sequence;256;('CRP', 'Leucocytes', 'ER Registration');7
+Sequence;256;('Leucocytes', 'ER Registration', 'ER Triage');12
+Sequence;256;('Leucocytes', 'CRP', 'ER Sepsis Triage');26
+Sequence;256;('LacticAcid', 'LacticAcid', 'IV Liquid');4
+Sequence;256;('CRP', 'Leucocytes', 'ER Triage');8
+Sequence;256;('Leucocytes', 'ER Triage', 'ER Sepsis Triage');11
+Sequence;256;('ER Registration', 'LacticAcid', 'CRP');3
+Sequence;256;('LacticAcid', 'CRP', 'LacticAcid');32
+Sequence;256;('Admission IC', 'Leucocytes', 'LacticAcid');10
+Sequence;256;('CRP', 'LacticAcid', 'CRP');35
+Sequence;256;('Admission NC', 'Admission IC', 'Leucocytes');7
+Sequence;256;('ER Registration', 'ER Triage', 'IV Liquid');9
+Sequence;256;('LacticAcid', 'Admission NC', 'Release B');4
+Sequence;256;('CRP', 'CRP', 'CRP');20
+Sequence;256;('Admission IC', 'Leucocytes', 'CRP');26
+Sequence;256;('Leucocytes', 'LacticAcid', 'Leucocytes');35
+Sequence;256;('IV Liquid', 'IV Antibiotics', 'Admission IC');28
+Sequence;256;('LacticAcid', 'ER Sepsis Triage', 'IV Liquid');23
+Sequence;256;('ER Registration', 'LacticAcid', 'Leucocytes');7
+Sequence;256;('Leucocytes', 'CRP', 'ER Triage');9
+Sequence;256;('LacticAcid', 'CRP', 'CRP');11
+Sequence;256;('ER Sepsis Triage', 'ER Registration', 'ER Triage');5
+Sequence;256;('CRP', 'CRP', 'LacticAcid');12
+Sequence;256;('Admission NC', 'Admission NC', 'IV Liquid');4
+Sequence;256;('LacticAcid', 'LacticAcid', 'LacticAcid');7
+Sequence;256;('ER Registration', 'CRP', 'Leucocytes');10
+Sequence;256;('CRP', 'Leucocytes', 'Release B');10
+Sequence;256;('Leucocytes', 'ER Sepsis Triage', 'IV Antibiotics');3
+Sequence;256;('IV Liquid', 'Admission NC', 'Leucocytes');20
+Sequence;256;('Admission NC', 'LacticAcid', 'Admission NC');6
+Sequence;256;('CRP', 'Release D', 'Return ER');6
+Sequence;256;('Admission NC', 'LacticAcid', 'Leucocytes');8
+Sequence;256;('ER Sepsis Triage', 'IV Antibiotics', 'Admission NC');22
+Sequence;256;('Leucocytes', 'CRP', 'Admission IC');11
+Sequence;256;('CRP', 'Admission IC', 'Leucocytes');7
+Sequence;256;('LacticAcid', 'CRP', 'ER Sepsis Triage');9
+Sequence;256;('CRP', 'ER Sepsis Triage', 'Admission NC');4
+Sequence;256;('ER Sepsis Triage', 'Admission NC', 'CRP');5
+Sequence;256;('IV Antibiotics', 'Admission IC', 'CRP');13
+Sequence;256;('ER Triage', 'CRP', 'Leucocytes');28
+Sequence;256;('IV Antibiotics', 'Admission IC', 'Leucocytes');12
+Sequence;256;('IV Antibiotics', 'Leucocytes', 'LacticAcid');22
+Sequence;256;('CRP', 'ER Registration', 'ER Triage');14
+Sequence;256;('IV Liquid', 'LacticAcid', 'CRP');11
+Sequence;256;('Leucocytes', 'CRP', 'ER Registration');13
+Sequence;256;('Admission NC', 'Admission IC', 'CRP');4
+Sequence;256;('Leucocytes', 'Leucocytes', 'Admission NC');4
+Sequence;256;('Leucocytes', 'Leucocytes', 'LacticAcid');12
+Sequence;256;('Leucocytes', 'CRP', 'Release E');3
+Sequence;256;('Admission NC', 'Admission NC', 'Admission IC');3
+Sequence;256;('Admission IC', 'CRP', 'Leucocytes');14
+Sequence;256;('Leucocytes', 'Admission NC', 'Admission NC');11
+Sequence;256;('IV Liquid', 'ER Sepsis Triage', 'IV Antibiotics');4
+Sequence;256;('ER Triage', 'IV Liquid', 'IV Antibiotics');3
+Sequence;256;('ER Registration', 'ER Sepsis Triage', 'ER Triage');5
+Sequence;256;('ER Registration', 'CRP', 'LacticAcid');4
+Sequence;256;('CRP', 'Admission IC', 'CRP');4
+Sequence;256;('Leucocytes', 'IV Liquid', 'ER Sepsis Triage');3
+Sequence;256;('Leucocytes', 'CRP', 'Release D');9
+Sequence;256;('ER Triage', 'LacticAcid', 'Leucocytes');16
+Sequence;256;('LacticAcid', 'Admission IC', 'LacticAcid');5
+Sequence;256;('Leucocytes', 'LacticAcid', 'ER Sepsis Triage');14
+Sequence;256;('LacticAcid', 'ER Sepsis Triage', 'IV Antibiotics');14
+Sequence;256;('Leucocytes', 'Admission IC', 'Leucocytes');8
+Sequence;256;('Admission NC', 'Admission NC', 'Admission NC');7
+Sequence;256;('ER Sepsis Triage', 'IV Antibiotics', 'Admission IC');3
+Sequence;256;('Admission NC', 'LacticAcid', 'CRP');9
+Sequence;256;('Leucocytes', 'Leucocytes', 'Release A');17
+Sequence;256;('LacticAcid', 'IV Antibiotics', 'Admission IC');4
+Sequence;256;('CRP', 'Leucocytes', 'Admission IC');7
+Sequence;256;('IV Liquid', 'Admission IC', 'CRP');3
+Sequence;256;('IV Antibiotics', 'IV Liquid', 'Admission IC');3
+Sequence;256;('CRP', 'Release C', 'Return ER');4
+Sequence;256;('LacticAcid', 'IV Liquid', 'Admission NC');3
+Sequence;256;('ER Triage', 'ER Sepsis Triage', 'Admission NC');7
+Sequence;256;('Admission NC', 'Leucocytes', 'LacticAcid');3
+Sequence;256;('ER Sepsis Triage', 'Admission NC', 'Release A');4
+Sequence;256;('ER Triage', 'IV Liquid', 'Leucocytes');4
+Sequence;256;('Admission NC', 'Admission NC', 'Release B');3
+Sequence;256;('Admission IC', 'LacticAcid', 'LacticAcid');3
+Sequence;256;('ER Sepsis Triage', 'IV Antibiotics', 'LacticAcid');5
+Sequence;256;('IV Liquid', 'LacticAcid', 'IV Antibiotics');3
+Sequence;256;('CRP', 'ER Sepsis Triage', 'IV Antibiotics');3
+Sequence;256;('ER Sepsis Triage', 'Admission NC', 'Leucocytes');4
+Sequence;256;('Release A', 'Return ER', 'CRP');3
+Sequence;256;('Leucocytes', 'LacticAcid', 'ER Triage');5
+Sequence;256;('IV Liquid', 'ER Triage', 'Leucocytes');3
+Sequence;256;('LacticAcid', 'Leucocytes', 'ER Triage');3
+Sequence;256;('CRP', 'Admission IC', 'LacticAcid');4

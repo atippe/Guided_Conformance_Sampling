@@ -1,3 +1,64 @@
+# MODIFIED README FILE
+
+## To get started
+
+1. **Python Version:** Python 3.9 was used.
+2. **Install Dependencies:**
+```bash
+pip install -r requirements.txt
+
+```
+
+3. **Download Data:**
+Run the download script to fetch the event logs.
+```bash
+python download_data.py
+
+```
+
+4. **Prepare Data:**
+Prepare the event logs for sampling (this discovers models and filters BPI 2018).
+```bash
+python prepare_data.py
+
+```
+
+5. **Run Experiments:**
+Perform the sampling experiments.
+```bash
+python eval.py
+
+```
+
+6. **Generate Plots:**
+Create the visual figures from your results.
+```bash
+python generate_plots.py
+
+```
+
+### Important Folders
+
+* **`downloads/`** - Contains the raw downloaded event logs (output of `download_data.py`).
+* **`data/`** - Contains the prepared models (`.pnml`) and filtered event logs (output of `prepare_data.py`).
+* **`results/`** - Contains the sampling experiment results as CSVs (output of `eval.py`).
+* **`results/figures/`** - Contains the generated PDF plots (output of `generate_plots.py`).
+* **`results/ICPM_2021/`** - Contains the original results from the paper and the pre-computed **index files** (used by default in `eval.py`).
+
+## Important Notes
+
+* The inputs in `generate_plots.py` need to match the outputs in `results/`.
+
+* **Modified `eval.py`:** The evaluation script has been modified from the original paper's implementation. Key changes include:
+* **Configuration:** Uses a static `DATA_CONFIG` dictionary to manage paths explicitly.
+* **Scope:** The "Full Log Analysis" (baseline) was removed to focus purely on sampling runtimes.
+* **Error Handling:** Added try/except blocks to prevent the entire experiment from crashing if a single sample times out.
+
+* **Data Sources:** `eval.py` uses the index files in `results/ICPM_2021/index_files/`. For the log files themselves, it loads the original logs from `downloads/` **except** for BPI 2018, which uses the filtered version in `data/`.
+* **Overwriting Warning:** `eval.py` **overwrites existing result files** in `results/` every time it runs. If you have results you want to keep (e.g., a long run of BPI 2012), rename the file before restarting the script.
+
+# BELOW IS THE ORIGINAL README FILE
+
 # Relevance-guided Sampling for Conformance Checking
 
 This repository contains an implementation, as well as the used experimental result data for the article ["Sampling What Matters: Relevance-guided Sampling of Event Logs"](https://ieeexplore.ieee.org/document/9576875).

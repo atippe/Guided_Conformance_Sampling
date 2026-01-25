@@ -9,7 +9,8 @@ import seaborn as sns
 
 
 def main():
-    inputs = ["Sepsis_Cases_-_Event_Log.xes", "BPI_Challenge_2012.xes", "BPI_Challenge_2018.xes"]
+    #inputs = ["Sepsis_Cases_-_Event_Log.xes", "BPI_Challenge_2012.xes", "BPI_Challenge_2018.xes"]
+    inputs = ["Sepsis"]
     base_dir = "results"
     sns.set_theme(style="ticks")
 
